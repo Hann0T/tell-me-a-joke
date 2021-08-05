@@ -1,0 +1,29 @@
+{
+  "name": "tell-me-a-joke",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/scripts/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "watch": "webpack --mode development --watch"
+  },
+  "author": "Hans Olivas <hansolivas1@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/plugin-transform-runtime": "^7.14.5",
+    "@babel/preset-env": "^7.14.8",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.1.0",
+    "node-sass": "^6.0.1",
+    "resolve-url-loader": "^4.0.0",
+    "sass-loader": "^12.1.0",
+    "webpack": "^5.47.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
